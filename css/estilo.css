@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(215, 231, 243);
+}
+
+h1
+{
+    text-align: center ;
+    color: rgb(245, 236, 236);
+    background-color: hsl(0, 100%, 50%);
+    
+}     
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    color: rgb(228, 236, 228);
+    color: rgb(6, 6, 54);
+} 
+#container{
+    border: 2px solid white;
+    padding: 10px;
+    width: 100px;
+    height: 900px;
+    left: 50px;
+    background-color: whitesmoke;
+    position: fixed; 
+    background-image: url(..//img/pokedex.png);
+    background-size: auto;
+
+    
+}
+.container{
+    border: 2px solid white;
+    padding: 10px;
+    width: 100px;
+    height: 900px;
+    right: 50px;
+    background-color: whitesmoke;
+    position: fixed;   
+    background-image: url(..//img/pokedex.png);
+    background-size: auto;
+    
+}
+.Charmander{
+    width: 100px;
+    height: 100px;
+}
+
